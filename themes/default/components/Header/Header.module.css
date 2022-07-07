@@ -1,0 +1,203 @@
+.typography {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.typography h1 {
+  font-size: 96px;
+  letter-spacing: -1.5px;
+  font-weight: 300;
+  line-height: 108px;
+  margin: 0;
+}
+
+.typography h2 {
+  font-size: 60px;
+  letter-spacing: -0.5px;
+  font-weight: 300;
+  line-height: 72px;
+  margin: 0;
+}
+
+.typography h3 {
+  font-size: 48px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+}
+
+.typography h4 {
+  font-size: 34px;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+  line-height: 48px;
+  margin: 0;
+}
+
+.typography h5 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0;
+}
+
+.typography h6 {
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  line-height: 33px;
+  margin: 0;
+}
+
+.typography p {
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .typography h1 {
+    font-size: 60px;
+  }
+  .typography h2 {
+    font-size: 48px;
+  }
+  .typography h3 {
+    font-size: 34px;
+  }
+  .typography h4 {
+    font-size: 24px;
+  }
+  .typography h5 {
+    font-size: 20px;
+  }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.slogan {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  user-select: none;
+  cursor: default;
+}
+
+.titleContainer {
+  width: 70vw;
+}
+
+.navigationContainer {
+  display: inline;
+}
+
+.sloganItem {
+  font-weight: bold !important;
+  letter-spacing: 0.1rem !important;
+  text-transform: uppercase;
+}
+
+.titleContainer {
+  background-color: #ffb1e5;
+  color: #fff;
+  padding: 50px 20px 20px 20px;
+  height: 350px;
+}
+
+.spacer,
+.spacerSubtitle {
+  margin-top: 20px;
+}
+
+.navigation {
+  color: #ffffff;
+  transition: all 0.2s;
+  text-decoration: none;
+  position: relative;
+  color: #fde047;
+}
+
+.navigation::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #10b981;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  margin-top: 5px;
+}
+
+.navigation .navigationText {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.navigation:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.mobileSlogan,
+.mobileSloganItem,
+.mobileSloganSlug {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .slogan,
+.sloganItem {
+    display: none !important;
+  }
+  .titleContainer {
+    width: 100%;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .spacer {
+    margin: 0px;
+  }
+  .spacerSubtitle {
+    margin: 15px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .navigationText {
+    font-size: 20px;
+  }
+  .navigationContainer {
+    width: calc(100% - 15px);
+  }
+  .mobileSlogan {
+    display: block;
+    padding: 10px;
+  }
+  .mobileSloganItem {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+  }
+  .mobileSloganSlug {
+    display: inline-block;
+    margin-right: 5px;
+  }
+}

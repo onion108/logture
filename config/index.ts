@@ -3,54 +3,54 @@ import defaultTheme from "themes/default";
 const config = {
   // global site information configuration
   site: {
-    name: "LogTure", // site name
-    title: "LogTure.", // site title
-    description: "The geek way to blog.", // site description
-    slogan: ["Eat", "Code", "Sleep"], // slogans
-    owner: "LogTure Team", // site owner, used in footer copyright
+    name: "ロッグタル", // site name
+    title: "ロッグタル。", // site title
+    description: "ギークなブログ。", // site description
+    slogan: ["食べる", "コードする", "眠る"], // slogans
+    owner: "ロッグタル　テーム", // site owner, used in footer copyright
   },
   // post configuration
   post: {
     folder: "posts", // post storage folder
-    title: "Posts", // post title (displayed on the index page and on the posts page)
-    description: "My blog posts.", // post description (displayed only on the posts page)
-    indexDescription: "View more posts on the posts page.", // post description (displayed only on the index page)
-    readMore: "Read more", // read more text on the index page
+    title: "ポスツ", // post title (displayed on the index page and on the posts page)
+    description: "私のブログポスツ", // post description (displayed only on the posts page)
+    indexDescription: "ポスツページでより多いポスツを読んでください。", // post description (displayed only on the index page)
+    readMore: "より多い読み", // read more text on the index page
     postsToDisplay: 6, // number of posts to display on the index page
-    noPostText: "No posts yet.", // text to display when no posts exist for the current section
+    noPostText: "ポスツがありません。", // text to display when no posts exist for the current section
   },
   // tag configuration
   tags: {
     // {{tag}} is the template string format in LogTure used to inject variables into the current string template
-    description: "Posts tagged with tag {{tag}}.", // tag description (displayed only on the tag page)
-    title: "Tag {{tag}}", // tag title (displayed on the tag page)
+    description: "ポストは{{tag}}とタッグしました。", // tag description (displayed only on the tag page)
+    title: "{{tag}}タッグ", // tag title (displayed on the tag page)
     // configuration for the `all tags` page
     allTags: {
-      title: "Tags", // title (displayed on the all tags page)
-      description: "All tags", // description (displayed only on the all tags page)
-      postCount: "{{count}} posts", // post count description (displayed on the all tags page)
+      title: "タッグ", // title (displayed on the all tags page)
+      description: "すべてタッグ", // description (displayed only on the all tags page)
+      postCount: "ポスツが{{count}}つ", // post count description (displayed on the all tags page)
     },
   },
   // navbar links configuration
   links: [
     {
-      text: "Home", // link text
+      text: "ホーム", // link text
       link: "/", // link url
     },
     {
-      text: "Posts",
+      text: "ポスツ",
       link: "/posts",
     },
     {
-      text: "Tags",
+      text: "タッグ",
       link: "/tags",
     },
     {
-      text: "Projects",
+      text: "プロジェクト",
       link: "/sections/projects",
     },
     {
-      text: "GitHub",
+      text: "ギットハブ",
       link: "https://github.com/samzhangjy/logture",
     },
   ],
@@ -101,30 +101,30 @@ const config = {
     {
       data: [
         {
-          title: "John Doe",
+          title: "工藤　新一",
           description:
-            "Culpa amet consequat anim in sunt incididunt adipisicing non eu sunt. Exercitation amet aliqua velit Lorem. Ex sit voluptate officia nulla reprehenderit duis reprehenderit exercitation commodo.",
+            "おはようごます。今回、私たちはこの人が知るものが必要です。化学は一番良いです。そして、毒物を食べましょう！へぇ、知らないね！くそ、ばかやろう！",
           cover: "https://avatars.dicebear.com/api/miniavs/gfwl.svg",
           link: "/",
         },
         {
-          title: "John Doe",
+          title: "工藤　新一",
           description:
-            "Culpa amet consequat anim in sunt incididunt adipisicing non eu sunt. Exercitation amet aliqua velit Lorem. Ex sit voluptate officia nulla reprehenderit duis reprehenderit exercitation commodo.",
+            "おはようごます。今回、私たちはこの人が知るものが必要です。化学は一番良いです。そして、毒物を食べましょう！へぇ、知らないね！くそ、ばかやろう！",
           cover: "https://avatars.dicebear.com/api/miniavs/gfwl.svg",
           link: "/",
         },
         {
-          title: "John Doe",
+          title: "安倍　晋三",
           description:
-            "Culpa amet consequat anim in sunt incididunt adipisicing non eu sunt. Exercitation amet aliqua velit Lorem. Ex sit voluptate officia nulla reprehenderit duis reprehenderit exercitation commodo.",
+            "えっ？あなたは、「安倍晋三とは何」が知るものが欲しいですか。あっ、私はあなたに言いましょう。安倍晋三は、馬鹿野郎です！",
           cover: "https://avatars.dicebear.com/api/miniavs/gfwl.svg",
           link: "/",
         },
         {
-          title: "John Doe",
+          title: "工藤　新一",
           description:
-            "Culpa amet consequat anim in sunt incididunt adipisicing non eu sunt. Exercitation amet aliqua velit Lorem. Ex sit voluptate officia nulla reprehenderit duis reprehenderit exercitation commodo.",
+            "おはようごます。今回、私たちはこの人が知るものが必要です。化学は一番良いです。そして、毒物を食べましょう！へぇ、知らないね！くそ、ばかやろう！",
           cover: "https://avatars.dicebear.com/api/miniavs/gfwl.svg",
           link: "/",
         },
