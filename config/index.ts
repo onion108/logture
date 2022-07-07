@@ -129,15 +129,15 @@ const config = {
           link: "/",
         },
       ],
-      name: "Members",
-      description: "A list of members",
+      name: "メンバー",
+      description: "メンバーのリストだ",
       slug: "members",
       newPage: false,
     },
     // section data can also be a string, in which case it will be used as the main content of the section
     {
-      data: `Consectetur fugiat qui veniam Lorem nisi officia do duis. Deserunt deserunt cillum esse mollit. Ipsum id pariatur velit et ea eiusmod est ullamco pariatur esse. Pariatur laborum quis ex nulla nisi laborum. Tempor velit nostrud deserunt occaecat occaecat ut exercitation. Reprehenderit cupidatat ad nostrud exercitation pariatur commodo aliquip duis ut qui laborum.
-  Cupidatat elit commodo anim dolor magna mollit culpa ea cillum laborum quis nisi excepteur do. Deserunt non magna nostrud eu fugiat cillum velit ut. Nulla duis sunt culpa esse aliquip Lorem esse consequat non duis. Reprehenderit aliquip sint id consectetur. Magna pariatur aliquip incididunt dolor magna elit nostrud Lorem officia velit dolore esse enim. Proident labore commodo dolor irure non aliqua duis incididunt ullamco qui reprehenderit ipsum deserunt.`,
+      data: `こんにちは。これはロッグタルテームです。まず、あなたはTNTがありますか。そして、「/」を入力してください。あっ、これはMinecraftじゃないか！あぁあ、すみません、違い世界へ行きました。
+  リップサムが知りますか。はい、これは日本語のリップサムです。ここの内容を理解しようとしないでください。分かりますか？あなたは分かりましたと欲しいです。自殺。あああ。あああああ。`,
       name: "Join us",
       description: "Join us",
       slug: "join-us",
